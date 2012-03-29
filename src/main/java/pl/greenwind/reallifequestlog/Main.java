@@ -1,13 +1,9 @@
 package pl.greenwind.reallifequestlog;
 
-import java.io.Serializable;
-import java.util.Collection;
-import java.util.Date;
 import java.util.logging.Logger;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import pl.greenwind.reallifequestlog.dao.DAO;
-import pl.greenwind.reallifequestlog.model.Quest;
 
 public class Main 
 {

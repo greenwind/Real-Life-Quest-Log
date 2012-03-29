@@ -38,7 +38,8 @@ public class MainJDialog extends javax.swing.JDialog {
         root.setChildren(dao.getByParentQuestId(null));
 
         questTree.setModel(new DefaultTreeModel(root));
-
+        questTree.setCellRenderer(new QuestTreeRenderer());
+        questTree.setCellEditor(new QuestTreeEditor());
         /////////////////
 
 

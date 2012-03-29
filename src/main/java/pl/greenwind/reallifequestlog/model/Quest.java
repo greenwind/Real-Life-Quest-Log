@@ -11,7 +11,7 @@ import org.hibernate.annotations.LazyCollectionOption;
 
 /**
  *
- * @author green
+ * @author piotr.janik
  */
 @Entity
 @Table(name = "quest")

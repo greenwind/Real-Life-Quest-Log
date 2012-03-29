@@ -1,7 +1,3 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
 package pl.greenwind.reallifequestlog.dao;
 
 import java.io.Serializable;
@@ -17,7 +13,7 @@ import pl.greenwind.reallifequestlog.model.Quest;
 
 /**
  *
- * @author green
+ * @author piotr.janik
  */
 @Repository
 @Transactional
